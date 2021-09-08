@@ -1,0 +1,143 @@
+*{padding: 0;margin: 0;box-sizing: border-box;}
+body, html {height: 100%;font-family: Montserrat, sans-serif;font-weight: 400;}
+h1,h2,h3,h4,h5,h6 {margin: 0px;}
+
+/* header */
+
+
+header{
+    min-height: 80vh;
+    background-image: url(../img/bg-title-page-03.jpg);
+    background-position: center;
+    background-size: cover  ;
+}
+
+/* navigation bar */
+
+.navbar{
+    
+
+    background-color: none;
+    border-top: solid 6px rgb(235, 0, 0);
+}
+li {
+    margin-top: 7px;
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+.icn{color: white;
+
+}
+.icn:hover{
+    color: brown;
+}
+li a:hover{
+    color: red;
+}
+
+/* h1 */
+.h1hed{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 5px;
+font-weight: bold;
+margin-top: 10%;
+}
+.navy:hover{
+color: black;    
+    background-color: beige;
+}
+
+/* //header */
+
+
+/* sec1 */
+.sec1{
+    background-image: url(../img/pattern1.png);
+
+ }
+
+
+ /* sec 2 */
+ .section-video {
+    background-attachment: fixed;
+    background-position: center 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image:linear-gradient( rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/header-menu-01.jpg) ;
+  }
+  .sec4{ 
+       background-attachment: fixed;
+    background-position: center 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image:linear-gradient( rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/bg-01.jpg) ;
+
+  }
+  .card{
+      color: none;
+  }
+
+  footer{
+    padding: 30px 0px;
+    background-color: rgb(20, 20, 20);
+    }
+    footer p{
+    color: #ddd;
+    text-align: center;
+    margin-top: 30px;
+    }
+    .footer-nav{
+    float: left;
+    list-style: none;
+    }
+    
+    .footer-nav li{
+    display: inline-block;
+    margin-right: 10px;
+    }
+    .footer-nav li a{
+    color: #888;
+    text-decoration: none;
+    text-transform: capitalize;
+    }
+    .footer-nav li a:hover{
+    color:#ddd;
+    text-decoration: underline;
+    
+    }
+    
+    
+    
+    .social-nav{
+    float: right;
+    list-style: none;
+    margin-top: 20px;
+    }
+    .social-nav li{
+    display: inline-block;
+    margin-right: 10px;
+    }
+    .social-nav li a{
+    color: #888;
+    text-decoration: none;
+    text-transform: capitalize;
+    }
+    .social-nav li a:hover{
+    color: #ddd ;
+    text-decoration: underline;
+    }
+  
+    .person{
+        margin-top: -100px;
+    }
+    .sec5{
+        margin-top: 100px;
+    }
+
+ 
